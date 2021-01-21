@@ -145,12 +145,3 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = { removeFromCart}
 
 export default connect(mapStateToProps, mapDispatchToProps)(Cart);
-
-
-
-// export default connect(
-//   (state) => ({
-//     cartItems: state.cart.cartItems ,
-//   }),
-//   { removeFromCart }
-// )(Cart);
